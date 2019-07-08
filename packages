@@ -1,7 +1,7 @@
 # General utilites
 curl wget git vim kmod iftop htop iotop tcpdump net-tools util-linux
 # Connect / Talk
-socat netcat telnet
+socat nmap-ncat telnet
 # Trace it
 mtr traceroute paris-traceroute intrace
 # Scan it
