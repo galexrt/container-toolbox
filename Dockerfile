@@ -7,7 +7,7 @@ RUN dnf -q update -y && \
     PACKAGES_TO_INSTALL=$(grep -v '^$\|^\s*\#' /packages) && \
     echo "Will install the following packages: ${PACKAGES_TO_INSTALL}" && \
     dnf --setopt=install_weak_deps=False --best install -y ${PACKAGES_TO_INSTALL} && \
-    dnf clean && \
+    dnf clean all && \
     mkdir /workdir
 
 USER root
