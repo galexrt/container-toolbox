@@ -14,3 +14,14 @@ Image available from:
 
 To have one container image with all them utilities in it for debugging of "anything".
 
+## How to run / use the container image?
+
+Just spin it up using Docker, Kubernetes or any other thing that can run a container image.
+Be sure to give the container at least `privileged` (and allow running as `root`) as otherwise most tools won't
+make fun.
+
+If you run it using something like Kubernetes, be sure to put something like `["sleep", "360000"]` as the command.
+
+Besides that just `docker exec`, `kubectl exec` or whatever other execs there are into the container and use the
+tools as you like.
+
