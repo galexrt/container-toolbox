@@ -18,5 +18,7 @@ ceph-common nfs-utils glusterfs-cli glusterfs-coreutils
 gdisk parted
 # Linux kernel / system stats
 kernel-tools dstat strace
+# Network
+exabgp ethtool
 # Misc tools
-ipcalc iproute tcpflow openssl ethtool
+ipcalc iproute tcpflow openssl lm_sensors
