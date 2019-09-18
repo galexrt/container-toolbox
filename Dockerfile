@@ -12,3 +12,5 @@ RUN dnf -q update -y && \
 
 USER root
 WORKDIR /workdir
+
+VOLUME ["/workdir"]
