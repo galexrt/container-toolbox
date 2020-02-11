@@ -1,9 +1,9 @@
 # General utilites
-curl wget git vim kmod iftop htop iotop tcpdump net-tools util-linux
+curl wget git vim kmod iftop htop iotop iputils tcpdump net-tools util-linux
 # Connect / Talk
 socat nmap-ncat telnet
 # Trace it
-mtr traceroute paris-traceroute intrace
+mtr traceroute paris-traceroute
 # Scan it
 nmap scamper
 # DNS
@@ -22,3 +22,8 @@ kernel-tools dstat strace
 exabgp ethtool
 # Misc tools
 ipcalc iproute tcpflow openssl lm_sensors
+# Ping
+hping3
+# Python
+## pingparsing
+python3-pyparsing
