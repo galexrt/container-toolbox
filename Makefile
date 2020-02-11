@@ -1,4 +1,4 @@
-RELEASE_TAG ?= v$(shell date +%Y%m%d)
+RELEASE_TAG ?= v$(shell date +%Y%m%d-%H%M%S-%3N)
 
 build:
 	docker build -t galexrt/container-toolbox:latest .
