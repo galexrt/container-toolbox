@@ -1,3 +1,4 @@
 #!/bin/sh
 
-pip install pingparsing
+pip3 install pingparsing || { echo "Failed to pip3 install pingparsing"; exit 1; }
+
