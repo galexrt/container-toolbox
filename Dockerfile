@@ -9,7 +9,10 @@ RUN dnf -q update -y && \
     echo "Will install the following packages: ${PACKAGES_TO_INSTALL}" && \
     dnf --setopt=install_weak_deps=False --best install -y ${PACKAGES_TO_INSTALL} && \
     dnf clean all && \
-    for f in /installscripts/*.sh; do bash "$f"; done && \
+    for f in /installscripts/*.sh; do \
+        echo "-> Running installscript: $f"; bash "$f" || \
+        { echo "Failed to run installscript $1"; exit 1; }; \
+    done && \
     mkdir /workdir
 
 USER root
