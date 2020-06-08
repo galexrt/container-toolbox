@@ -5,7 +5,7 @@ socat nmap-ncat telnet
 # Trace it
 mtr traceroute paris-traceroute
 # Scan it
-nmap scamper
+nmap
 # DNS
 bind-utils dnsperf
 # Network performance
