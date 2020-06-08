@@ -1,4 +1,4 @@
-FROM fedora:31
+FROM fedora:32
 LABEL maintainer="Alexander Trost <galexrt@googlemail.com>"
 
 COPY packages /packages

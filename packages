@@ -25,5 +25,6 @@ ipcalc iproute tcpflow openssl lm_sensors
 # Ping
 hping3
 # Python
+python3 python3-pip python3-pyyaml
 ## pingparsing
 python3-pyparsing
