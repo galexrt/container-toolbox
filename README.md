@@ -1,14 +1,16 @@
 # container-toolbox
 
-[![](https://images.microbadger.com/badges/image/galexrt/container-toolbox.svg)](https://microbadger.com/images/galexrt/container-toolbox "Get your own image badge on microbadger.com")
+A toolbox container for debugging and stuff in containers.
 
-[![Docker Repository on Quay.io](https://quay.io/repository/galexrt/container-toolbox/status "Docker Repository on Quay.io")](https://quay.io/repository/galexrt/container-toolbox)
+Container Image available from:
 
-Image available from:
+* [Quay.io](https://quay.io/repository/galexrt/container-toolbox)
+* [GHCR.io](https://github.com/users/galexrt/packages/container/package/container-toolbox)
 
-* [**Quay.io**](https://quay.io/repository/galexrt/container-toolbox)
-* [**Docker Hub**](https://hub.docker.com/r/galexrt/container-toolbox)
+Container Image Tags:
 
+* `main` - Latest build of the `main` branch.
+* `YYYYmmdd-HHMMSS-NNN` - Latest build of the application with date of the build.
 
 ## Why does this project exist?
 
@@ -24,4 +26,3 @@ If you run it using something like Kubernetes, be sure to put something like `["
 
 Besides that just `docker exec`, `kubectl exec` or whatever other execs there are into the container and use the
 tools as you like.
-

@@ -1,4 +1,4 @@
-FROM fedora:32
+FROM fedora:34
 LABEL maintainer="Alexander Trost <galexrt@googlemail.com>"
 
 COPY packages /packages
@@ -13,9 +13,9 @@ RUN dnf -q update -y && \
         echo "-> Running installscript: $f"; bash "$f" || \
         { echo "Failed to run installscript $1"; exit 1; }; \
     done && \
-    mkdir /workdir
+    mkdir /data
 
 USER root
-WORKDIR /workdir
+WORKDIR /data
 
-VOLUME ["/workdir"]
+VOLUME ["/data"]
