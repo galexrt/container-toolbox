@@ -1,5 +1,6 @@
 # General utilites
 curl wget git vim kmod iftop htop iotop iputils tcpdump net-tools util-linux
+procinfo stress powertop numactl
 # Connect / Talk
 socat nmap-ncat telnet
 # Trace it
@@ -12,14 +13,16 @@ bind-utils dnsperf
 iperf iperf3
 # "High level" net perf
 siege httpd-tools httperf
-# Net Storage
+# Networked Storage
 ceph-common nfs-utils glusterfs-cli glusterfs-coreutils
+# Storage
+fio fio-engine-rados fio-engine-rbd
 # Disk
 gdisk parted
 # Linux kernel / system stats
-kernel-tools dstat strace
+kernel-tools dstat strace kmod
 # Network
-exabgp ethtool
+exabgp ethtool dropwatch
 # Misc tools
 ipcalc iproute tcpflow openssl lm_sensors
 # Ping
@@ -28,3 +31,5 @@ hping3
 python3 python3-pip python3-pyyaml
 ## pingparsing
 python3-pyparsing
+# SSH Server + Client
+openssh-server openssh-client
