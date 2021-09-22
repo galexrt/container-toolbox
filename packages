@@ -16,7 +16,7 @@ siege httpd-tools httperf
 # Networked Storage
 ceph-common nfs-utils glusterfs-cli glusterfs-coreutils
 # Storage
-fio fio-engine-rados fio-engine-rbd
+fio fio-engine-rados fio-engine-rbd nvme-cli
 # Disk
 gdisk parted
 # Linux kernel / system stats
