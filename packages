@@ -1,6 +1,6 @@
 # General utilites
 curl wget git vim kmod iftop htop iotop iputils tcpdump net-tools util-linux
-procinfo stress powertop numactl jq
+procinfo stress powertop numactl jq psutils
 # Connect / Talk
 socat nmap-ncat telnet
 # Trace it
