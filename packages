@@ -10,7 +10,7 @@ nmap
 # DNS
 bind-utils dnsperf
 # Network performance
-iperf iperf3
+iperf iperf3 netperf
 # "High level" net perf
 siege httpd-tools httperf
 # Networked Storage
