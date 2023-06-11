@@ -4,7 +4,7 @@ procinfo stress powertop numactl jq psutils procps-ng
 # Connect / Talk
 socat nmap-ncat telnet
 # Trace it
-mtr traceroute paris-traceroute
+mtr traceroute
 # Scan it
 nmap
 # DNS
