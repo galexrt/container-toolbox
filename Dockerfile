@@ -1,4 +1,4 @@
-FROM fedora:34
+FROM fedora:36
 
 ARG BUILD_DATE="N/A"
 ARG REVISION="N/A"
