@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 cat <<'EOF' > /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
