@@ -20,7 +20,7 @@ fio fio-engine-rados fio-engine-rbd fio-engine-libaio nvme-cli hdparm
 # Disk
 gdisk parted
 # Linux kernel / system stats
-kernel-tools dstat strace kmod
+dstat strace kmod
 # Network
 exabgp ethtool dropwatch
 # Misc tools
