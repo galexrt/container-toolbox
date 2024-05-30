@@ -26,9 +26,9 @@ RUN dnf -q update -y && \
     dnf clean all && \
     for f in /installscripts/*.sh; do \
         echo "-> Running installscript: $f"; bash "$f" || \
-        { echo "Failed to run installscript $1"; exit 1; }; \
+        { echo "Failed to run installscript $f"; exit 1; }; \
     done && \
-    mkdir "${DATA_DIR}"
+    mkdir -p "${DATA_DIR}"
 
 USER root
 
