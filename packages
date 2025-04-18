@@ -33,3 +33,5 @@ python3 python3-pip python3-pyyaml python3-requests
 python3-pyparsing
 # SSH Server + Client
 openssh-server openssh-clients
+# MySQL (mainly for the client tools)
+mariadb
