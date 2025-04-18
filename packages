@@ -35,3 +35,5 @@ python3-pyparsing
 openssh-server openssh-clients
 # MySQL (mainly for the client tools)
 mariadb
+# Restic backup program
+restic
