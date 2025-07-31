@@ -14,7 +14,7 @@ iperf iperf3 netperf
 # "High level" net perf
 siege httpd-tools httperf
 # Networked Storage
-ceph-common nfs-utils glusterfs-cli glusterfs-coreutils
+ceph-common nfs-utils glusterfs-cli glusterfs-fuse fuse
 # Storage
 fio fio-engine-rados fio-engine-rbd fio-engine-libaio nvme-cli hdparm
 # Disk
